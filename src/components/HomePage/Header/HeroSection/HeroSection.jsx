@@ -1,25 +1,34 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const HeroSectionContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 5rem;
+  margin-left: 10rem;
+  margin-top: 3rem;
 `;
 
 const HeroTitle1 = styled.h1``;
 
 const HeroTitle2 = styled.h1`
-  color: green;
+  color: rgb(156, 255, 44);
 `;
 
 const ProductDescription = styled.p`
   width: 20rem;
+  margin-bottom: 4rem;
 `;
 
 const ContactUsButton = styled.button`
+  font-weight: bold;
+  font-size: large;
   width: 10rem;
-  background-color: green;
+  background: linear-gradient(
+    90deg,
+    rgba(75, 194, 38, 1) 19%,
+    rgba(125, 245, 26, 1) 93%
+  );
   color: white;
   border: none;
   padding: 1rem;
@@ -27,7 +36,11 @@ const ContactUsButton = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: white;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
     color: green;
   }
 `;

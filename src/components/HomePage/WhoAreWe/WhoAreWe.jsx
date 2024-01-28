@@ -1,10 +1,11 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const WhoAreWeContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 7rem;
 `;
 
 const Title = styled.h1`
